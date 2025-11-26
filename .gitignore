@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CircuitPython / UF2 / board drive artifacts
+.CIRCUITPY/
+*.uf2
+
+# KiCad 6/7/8 generated/cache
+**/backup/
+**/fp-info-cache
+*.dcm
+*-bak
+*-backups/
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_ssh
+*.net
+
+# Draw.io temp
+*.bkp
+
+# OS / editors
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
